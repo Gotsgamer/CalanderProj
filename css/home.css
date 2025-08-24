@@ -1,0 +1,64 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#centerbox {
+  justify-content: center;
+  align-items: center;
+  padding: 7em;
+}
+
+h4 {
+  text-align: center;
+ }
+hr{
+  color: black;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgrey;
+  font-family: "VT323", monospace;
+}
+
+#admin {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  font-size: 2em;
+  border-radius: 1em;
+  padding: .5em .5em;
+  height: 10vw;
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+#employee {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  font-size: 2em;
+  border-radius: 1em;
+  padding: .5em .5em;
+  height: 10vw;
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+p {
+  position: fixed;
+  top: 3em;
+  left: 4em;
+  color: #414141;
+}
